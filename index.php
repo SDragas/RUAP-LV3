@@ -59,9 +59,9 @@ register.</p>
 // DB connection info
 // TODO: Update the values for $host, $user, $pwd, and $db //using the values you retrieved
 $host = "value of Data Source";
-$host = "localhost";
-$user = "root";
-$pwd = "";
+$host = "sdragas-mysqldbserver.mysql.database.azure.com";
+$user = "mysqldbuser@sdragas-mysqldbserver";
+$pwd = "Labosi123";
 $db = "ruapdb";
 // Connect to database.
 $conn = mysqli_connect($host, $user, $pwd, $db);
